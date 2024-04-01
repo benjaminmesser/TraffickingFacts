@@ -8,7 +8,7 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Landing Page</title>
+        <title>Trafficking Facts</title>
         <meta property="og:title" content="Landing Page" />
       </Helmet>
       <div data-role="Header" className="home-navbar-container">
