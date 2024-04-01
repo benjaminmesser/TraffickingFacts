@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Landing Page</title>
+    <title>Trafficking Facts</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
@@ -45,9 +45,31 @@
             flex-direction: column;
             position: relative;
             width: 300px;
+            transform-style: preserve-3d;
+            transition: 0.5s;
+            transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
+        }
+
+        .card.flip {
+            --rotate-y: 180deg;
+        }
+
+        .card .front {
+            left: 0;
+        }
+
+        .card .front,
+        .card .back {
+            position: absolute;
+            backface-visibility: hidden;
+        }
+
+        .card .back {
+            transform: rotateY(180deg);
         }
 
         .card:hover::before {
+            --translate-y: -2xpx;
             opacity: 1;
         }
 
@@ -270,6 +292,12 @@
                     card.style.setProperty("--mouse-y", `${y}px`);
                 };
             }
+        }
+    </script>
+    <script>
+        window.onload = function () {
+            const [flip, setFlip] = useState(false);
+
         }
     </script>
 </head>
