@@ -1,7 +1,7 @@
 import React from 'react'
 
-import page2 from './page2.html';
-var _page2 = { __html: page2 };
+var _html = require('./page2.html');
+var _page2 = { __html: _html };
 
 const Page2 = {
   render: function() {
