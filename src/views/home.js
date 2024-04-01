@@ -39,7 +39,10 @@ const Home = (props) => {
               <a href="#ourstory" className="home-link03 Anchor">
                 Our story
               </a>
-              <Link className="home-link04 Anchor" to="/page2">
+              <Link className="home-link08 Anchor" to="/home">
+                Home
+              </Link>
+              <Link className="home-link09 Anchor" to="/page2">
                 Page 2
               </Link>
             </div>
@@ -73,6 +76,12 @@ const Home = (props) => {
               <a href="#ourstory" className="home-link07 Anchor">
                 Our story
               </a>
+              <Link className="home-link10 Anchor" to="/home">
+                Home
+                </Link>
+              <Link className="home-link11 Anchor" to="/page2">
+                Page 2
+              </Link>
             </div>
           </div>
         </div>

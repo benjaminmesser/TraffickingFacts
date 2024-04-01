@@ -73,9 +73,13 @@
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.home-link04 {
-    text-decoration: none;
-  }
+.home-link08 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.home-link09 {
+  text-decoration: none;
+}
 .home-right-side {
   display: flex;
   align-items: center;
@@ -147,6 +151,14 @@
   text-decoration: none;
 }
 .home-link07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-link10 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-link11 {
   text-decoration: none;
 }
 .home-hero {
