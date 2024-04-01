@@ -70,6 +70,14 @@
   text-decoration: none;
 }
 .home-link03 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.home-link08 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.home-link09 {
   text-decoration: none;
 }
 .home-right-side {
@@ -143,6 +151,14 @@
   text-decoration: none;
 }
 .home-link07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-link10 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-link11 {
   text-decoration: none;
 }
 .home-hero {
