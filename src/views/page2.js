@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 
 import { Helmet } from 'react-helmet'
 
-import './page2.css'
+// import './page2.css'
+
+import './home.css'
 
 const page2 = (props) => {
     return (
