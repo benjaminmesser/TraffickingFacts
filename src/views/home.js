@@ -11,7 +11,7 @@ const Home = (props) => {
     <div className="home-container">
       <Helmet>
         <title>Trafficking Facts</title>
-        <meta property="og:title" content="Landing Page" />
+        <meta property="og:title" content="Trafficking Facts" />
       </Helmet>
       <div data-role="Header" className="home-navbar-container">
         <div className="home-navbar">
@@ -27,7 +27,6 @@ const Home = (props) => {
               </svg>
             </div>
             <div className="home-links-container">
-              <Link to="/page2"> Page 2 </Link>
               <a href="#resources" className="home-link Anchor">
                 Resources
               </a>
@@ -40,6 +39,9 @@ const Home = (props) => {
               <a href="#ourstory" className="home-link03 Anchor">
                 Our story
               </a>
+              <Link className="home-link04 Anchor" to="/page2">
+                Page 2
+              </Link>
             </div>
           </div>
           <div className="home-right-side">
@@ -79,7 +81,7 @@ const Home = (props) => {
         <div className="home-content-container">
           <div className="home-hero-text">
             <h1 className="home-heading Section-Heading">
-              Tell the whole world about your ideea
+              Tell the whole world about your idea
             </h1>
             <span className="home-text Section-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer

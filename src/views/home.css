@@ -70,8 +70,12 @@
   text-decoration: none;
 }
 .home-link03 {
+  margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
+.home-link04 {
+    text-decoration: none;
+  }
 .home-right-side {
   display: flex;
   align-items: center;
