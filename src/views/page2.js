@@ -12,8 +12,8 @@ const page2 = (props) => {
             <Helmet>
                 <title>Trafficking Facts</title>
                 <meta property="og:title" content="Trafficking Facts" />
-                <script src="fontawesome.js"></script>
-                <script>
+                <script defer src="fontawesome.js"></script>
+                <script defer>
                     window.onload = function () {
                         document.getElementById("cards").onmousemove = e => {
                             for (const card of document.getElementsByClassName("card")) {
