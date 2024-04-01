@@ -3,24 +3,24 @@ import ReactDOM from 'react-dom'
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
+  Routes,
   Redirect,
 } from 'react-router-dom'
 
 import './style.css'
 import Home from './views/home'
-import page2 from './views/page2'
+import Page2 from './views/page2'
 import NotFound from './views/not-found'
 
 const App = () => {
   return (
     <Router>
-      <Switch>
-        <Route component={Home} exact path="/" />
-        <Route component={page2} exact path="/page2" />
-        <Route component={NotFound} path="**" />
+      <Routes>
+        <Route element={<Home />} exact path="/" />
+        <Route element={<Page2 />} exact path="/page2" />
+        <Route element={<NotFound />} path="**" />
         <Redirect to="**" />
-      </Switch>
+      </Routes>
     </Router>
   )
 }
