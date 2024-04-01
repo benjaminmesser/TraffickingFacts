@@ -25,7 +25,7 @@ const Home = (props) => {
               </svg>
             </div>
             <div className="home-links-container">
-              <Link to="/Page2"> Page 2 </Link>
+              <Link to="/page2"> Page 2 </Link>
               <a href="#resources" className="home-link Anchor">
                 Resources
               </a>
