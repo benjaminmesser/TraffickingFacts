@@ -9,7 +9,7 @@ import {
 
 import './style.css'
 import Home from './views/home'
-//import page2 from './views/page2'
+import Page2 from './views/page2'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -17,6 +17,7 @@ const App = () => {
     <Router>
       <Switch>
         <Route component={Home} exact path="/" />
+        <Route component={Page2} exact path="/page2" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
