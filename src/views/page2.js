@@ -15,20 +15,6 @@ const page2 = (props) => {
                 <title>Trafficking Facts</title>
                 <meta property="og:title" content="Trafficking Facts" />
                 <script src="fontawesome.js"></script>
-                <script>
-                    window.onload = function () {
-                        document.getElementById("cards").onmousemove = e => {
-                            for (const card of document.getElementsByClassName("card")) {
-                                const rect = card.getBoundingClientRect(),
-                                    x = e.clientX - rect.left,
-                                    y = e.clientY - rect.top;
-
-                                card.style.setProperty("--mouse-x", `${x}px`);
-                                card.style.setProperty("--mouse-y", `${y}px`);
-                            };
-                        }
-                    }
-                </script>
             </Helmet>
             <div data-role="Header" className="home-navbar-container">
                 <div className="home-navbar">
