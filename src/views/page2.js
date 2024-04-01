@@ -1,12 +1,14 @@
 import React from 'react'
 
 var __html = require('./page2.html');
-var page2 = { __html: __html };
+var _page2 = { __html: __html };
 
-React.module.exports = React.createClass({
+const Page2 = {
   render: function() {
     return(
-      <div dangerouslySetInnerHTML={page2} />
+      <div dangerouslySetInnerHTML={_page2} />
     );
   }
-});
+}
+
+export default Page2
