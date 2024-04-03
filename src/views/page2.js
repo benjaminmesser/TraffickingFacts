@@ -2,6 +2,8 @@ import React from 'react'
 
 import { Link } from "react-router-dom";
 
+import { HashLink } from 'react-router-hash-link';
+
 import { Helmet } from 'react-helmet'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -53,18 +55,18 @@ const page2 = (props) => {
                             </svg>
                         </div>
                         <div className="home-links-container">
-                            <a href="#resources" className="home-link Anchor">
+							<HashLink className="home-link Anchor" to="/#resources">
                                 Resources
-                            </a>
-                            <a href="#inspiration" className="home-link01 Anchor">
+                            </HashLink>
+							<HashLink className="home-link01 Anchor" to="/#inspiration">
                                 Inspiration
-                            </a>
-                            <a href="#process" className="home-link02 Anchor">
+                            </HashLink>
+							<HashLink className="home-link02 Anchor" to="/#process">
                                 Process
-                            </a>
-                            <a href="#ourstory" className="home-link03 Anchor">
+                            </HashLink>
+							<HashLink className="home-link03 Anchor" to="/#ourstory">
                                 Our story
-                            </a>
+                            </HashLink>
                             <Link className="home-link08 Anchor" to="/">
                                 Home
                             </Link>
@@ -90,19 +92,19 @@ const page2 = (props) => {
                             </div>
                         </div>
                         <div className="home-links-container1">
-                            <a href="#resources" className="home-link04 Anchor">
+                            <HashLink className="home-link04 Anchor" to="/#resources">
                                 Resources
-                            </a>
-                            <a href="#inspiration" className="home-link05 Anchor">
+                            </HashLink>
+							<HashLink className="home-link05 Anchor" to="/#inspiration">
                                 Inspiration
-                            </a>
-                            <a href="#process" className="home-link06 Anchor">
+                            </HashLink>
+							<HashLink className="home-link06 Anchor" to="/#process">
                                 Process
-                            </a>
-                            <a href="#ourstory" className="home-link07 Anchor">
+                            </HashLink>
+							<HashLink className="home-link07 Anchor" to="/#ourstory">
                                 Our story
-                            </a>
-                            <Link className="home-link10 Anchor" to="/home">
+                            </HashLink>
+                            <Link className="home-link10 Anchor" to="/">
                                 Home
                             </Link>
                             <Link className="home-link11 Anchor" to="/page2">
@@ -122,8 +124,8 @@ const page2 = (props) => {
                             <div class="card-info">
                                 <i class="fa-duotone fa-apartment"></i>
                                 <div class="card-info-title">
-                                    <h3>Apartments</h3>
-                                    <h4>Places to be apart. Wait, what?</h4>
+                                    <h3>Convictions</h3>
+                                    <h4>In the last 10 years, annual charges of human trafficking in Canada have increased by a factor of more than 10</h4>
                                 </div>
                             </div>
                         </div>
@@ -201,6 +203,8 @@ const page2 = (props) => {
                         <div class="card-info-wrapper">
                             <div class="card-info">
                                 <i class="fa-duotone fa-otter"></i>
+								<FontAwesomeIcon icon={'fa-duotone fa-otter'} />
+								
                                 <div class="card-info-title">
                                     <FontAwesomeIcon icon={'fa-duotone fa-otter'} />
                                     <h3>Otters</h3>

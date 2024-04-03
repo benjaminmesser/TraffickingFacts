@@ -2,6 +2,8 @@ import React from 'react'
 
 import { Link } from "react-router-dom";
 
+import { HashLink } from 'react-router-hash-link';
+
 import { Helmet } from 'react-helmet'
 
 import './home.css'
@@ -39,9 +41,9 @@ const Home = (props) => {
                             <a href="#ourstory" className="home-link03 Anchor">
                                 Our story
                             </a>
-                            <Link className="home-link08 Anchor" to="/">
+                            <HashLink className="home-link08 Anchor" to="/#top">
                                 Home
-                            </Link>
+                            </HashLink>
                             <Link className="home-link09 Anchor" to="/page2">
                                 Page 2
                             </Link>
@@ -76,9 +78,9 @@ const Home = (props) => {
                             <a href="#ourstory" className="home-link07 Anchor">
                                 Our story
                             </a>
-                            <Link className="home-link10 Anchor" to="/home">
+                            <HashLink className="home-link10 Anchor" to="/#top">
                                 Home
-                            </Link>
+                            </HashLink>
                             <Link className="home-link11 Anchor" to="/page2">
                                 Page 2
                             </Link>
