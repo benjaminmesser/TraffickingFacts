@@ -32,17 +32,17 @@ const Home = (props) => {
 							<HashLink className="home-link08 Anchor" to="/#top">
                                 Home
                             </HashLink>
-                            <a href="#resources" className="home-link Anchor">
-                                Resources
+                            <a href="#those_vulnerable" className="home-link Anchor">
+                                Those Vulnerable
                             </a>
-                            <a href="#inspiration" className="home-link01 Anchor">
-                                Inspiration
+                            <a href="#signs" className="home-link01 Anchor">
+                                Signs
                             </a>
-                            <a href="#process" className="home-link02 Anchor">
-                                Process
+                            <a href="#protective_factors" className="home-link02 Anchor">
+                                Protective Factors
                             </a>
-                            <a href="#ourstory" className="home-link03 Anchor">
-                                Our story
+                            <a href="#victim_story" className="home-link03 Anchor">
+                                Victim Story
                             </a>
                             <Link className="home-link09 Anchor" to="/facts">
                                 Facts
@@ -69,17 +69,17 @@ const Home = (props) => {
 							<HashLink className="home-link10 Anchor" to="/#top">
                                 Home
                             </HashLink>
-                            <a href="#resources" className="home-link04 Anchor">
-                                Resources
+                            <a href="#those_vulnerable" className="home-link04 Anchor">
+                                Those Vulnerable
                             </a>
-                            <a href="#inspiration" className="home-link05 Anchor">
-                                Inspiration
+                            <a href="#signs" className="home-link05 Anchor">
+                                Signs
                             </a>
-                            <a href="#process" className="home-link06 Anchor">
-                                Process
+                            <a href="#protective_factors" className="home-link06 Anchor">
+                                Protective Factors
                             </a>
-                            <a href="#ourstory" className="home-link07 Anchor">
-                                Our story
+                            <a href="#victim_story" className="home-link07 Anchor">
+                                Victim Story
                             </a>
                             <Link className="home-link11 Anchor" to="/facts">
                                 Facts
@@ -88,7 +88,7 @@ const Home = (props) => {
                     </div>
                 </div>
             </div>
-            <div id="resources" className="home-hero">
+            <div id="those_vulnerable" className="home-hero">
                 <div className="home-content-container">
                     <div className="home-hero-text">
                         <h1 className="home-heading Section-Heading">
@@ -103,7 +103,7 @@ const Home = (props) => {
                     </div>
                 </div>
             </div>
-			<div id="resources" className="home-hero2">
+			<div id="those_vulnerable" className="home-hero2">
                 <div className="home-content-container2">
                     <div className="home-hero-text2">
                         <h1 className="home-heading2 Section-Heading">
@@ -126,7 +126,7 @@ const Home = (props) => {
                     </div>
                 </div>
             </div>
-            <div id="inspiration" className="home-features">
+            <div id="signs" className="home-features">
                 <div className="home-heading-container">
                     <h2 className="home-text01 Section-Heading">
                         Indicators of human trafficking
@@ -240,7 +240,7 @@ const Home = (props) => {
                     </div>
                 </div>
             </div>
-            <div id="process" className="home-services">
+            <div id="protective_factors" className="home-services">
                 <div className="home-heading-container1">
                     <h1 className="home-text08 Section-Heading">
                         Protective Factors
@@ -337,7 +337,7 @@ const Home = (props) => {
                 </div>
             </div>
             <div className="home-section-separator1"></div>
-            <div id="ourstory" className="home-our-story">
+            <div id="victim_story" className="home-our-story">
                 <div className="home-heading-container3">
                     <h1 className="home-text18 Section-Heading">A story of a survivor</h1>
                     <span className="home-text19 Section-Text">

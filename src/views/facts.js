@@ -58,17 +58,17 @@ const facts = (props) => {
 							<Link className="home-link08 Anchor" to="/">
                                 Home
                             </Link>
-							<HashLink className="home-link Anchor" to="/#resources">
-                                Resources
+							<HashLink className="home-link Anchor" to="/#those_vulnerable">
+                                Those Vulnerable
                             </HashLink>
-							<HashLink className="home-link01 Anchor" to="/#inspiration">
-                                Inspiration
+							<HashLink className="home-link01 Anchor" to="/#signs">
+                                Signs
                             </HashLink>
-							<HashLink className="home-link02 Anchor" to="/#process">
-                                Process
+							<HashLink className="home-link02 Anchor" to="/#protective_factors">
+                                Protective Factors
                             </HashLink>
-							<HashLink className="home-link03 Anchor" to="/#ourstory">
-                                Our story
+							<HashLink className="home-link03 Anchor" to="/#victim_story">
+                                Victim Story
                             </HashLink>
                             <Link className="home-link09 Anchor" to="/facts">
                                 Facts
@@ -95,17 +95,17 @@ const facts = (props) => {
 							<Link className="home-link10 Anchor" to="/">
                                 Home
                             </Link>
-                            <HashLink className="home-link04 Anchor" to="/#resources">
-                                Resources
+                            <HashLink className="home-link04 Anchor" to="/#those_vulnerable">
+                                Those Vulnerable
                             </HashLink>
-							<HashLink className="home-link05 Anchor" to="/#inspiration">
-                                Inspiration
+							<HashLink className="home-link05 Anchor" to="/#signs">
+                                Signs
                             </HashLink>
-							<HashLink className="home-link06 Anchor" to="/#process">
-                                Process
+							<HashLink className="home-link06 Anchor" to="/#protective_factors">
+                                Protective Factors
                             </HashLink>
-							<HashLink className="home-link07 Anchor" to="/#ourstory">
-                                Our story
+							<HashLink className="home-link07 Anchor" to="/#victim_story">
+                                Victim Story
                             </HashLink>
                             <Link className="home-link11 Anchor" to="/facts">
                                 Facts
