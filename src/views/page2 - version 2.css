@@ -3,7 +3,7 @@
     --card-color: rgb(23, 23, 23);
 }
 
-/*body {
+body {
     align-items: center;
     background-color: var(--bg-color);
     display: flex;
@@ -12,7 +12,7 @@
     margin: 0px;
     overflow: hidden;
     padding: 0px;
-}*/
+}
 
 #cards {
     display: flex;
