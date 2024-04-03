@@ -5,12 +5,12 @@
 
 body {
     align-items: center;
-    background-color: var(--bg-color);
+    /*background-color: var(--bg-color);*/
     display: flex;
     height: 100vh;
     justify-content: center;
     margin: 0px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding: 0px;
 }
 
@@ -304,4 +304,3 @@ i {
   }
 
 
-  
