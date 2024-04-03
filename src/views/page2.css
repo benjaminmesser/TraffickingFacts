@@ -1,13 +1,13 @@
 :root {
-    --bg-color: rgb(20, 20, 20);
+    /*--bg-color: rgb(20, 20, 20);*/
     --card-color: rgb(23, 23, 23);
 }
 
 body {
     align-items: center;
     /*background-color: var(--bg-color);*/
-    display: flex;
-    height: 100vh;
+    /*display: flex;*/
+    /*height: 100vh;*/
     justify-content: center;
     margin: 0px;
     /*overflow: hidden;*/
