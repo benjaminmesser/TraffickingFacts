@@ -90,6 +90,9 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
+.h2{
+  text-color: rgb(20, 20, 20);
+}
 .home-cta-btn {
   color: var(--dl-color-gray-white);
   padding-top: var(--dl-space-space-unit);
@@ -175,7 +178,7 @@ body {
   padding-bottom: var(--dl-space-space-tenunits);
   background-size: cover;
   justify-content: center;
-  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+  background-image: url("images/bound_hands.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -451,9 +454,7 @@ body {
   padding: var(--dl-space-space-unit);
   align-items: center;
   margin-right: var(--dl-space-space-tripleunit);
-  border-radius: var(--dl-radius-radius-round);
   flex-direction: column;
-  background-color: var(--dl-color-gray-900);
 }
 .home-icon19 {
   width: 36px;

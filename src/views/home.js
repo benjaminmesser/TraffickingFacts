@@ -19,8 +19,8 @@ const Home = (props) => {
                 <div className="home-navbar">
                     <div className="home-left-side">
                         <img
-                            alt="image"
-                            src="https://play.teleporthq.io/static/svg/default-img.svg"
+                            alt="Justice Symbol"
+                            src="images/justice.jpg"
                             className="home-image"
                         />
                         <div data-role="BurgerMenu" className="home-burger-menu">
@@ -29,6 +29,9 @@ const Home = (props) => {
                             </svg>
                         </div>
                         <div className="home-links-container">
+							<HashLink className="home-link08 Anchor" to="/#top">
+                                Home
+                            </HashLink>
                             <a href="#resources" className="home-link Anchor">
                                 Resources
                             </a>
@@ -41,22 +44,19 @@ const Home = (props) => {
                             <a href="#ourstory" className="home-link03 Anchor">
                                 Our story
                             </a>
-                            <HashLink className="home-link08 Anchor" to="/#top">
-                                Home
-                            </HashLink>
-                            <Link className="home-link09 Anchor" to="/page2">
-                                Page 2
+                            <Link className="home-link09 Anchor" to="/facts">
+                                Facts
                             </Link>
                         </div>
                     </div>
                     <div className="home-right-side">
-                        <button className="home-cta-btn Anchor button">START NOW</button>
+                        <a href="https://menti.com/"><button className="home-cta-btn Anchor button">START QUIZ</button></a>
                     </div>
                     <div data-role="MobileMenu" className="home-mobile-menu">
                         <div className="home-container1">
                             <img
-                                alt="image"
-                                src="https://play.teleporthq.io/static/svg/default-img.svg"
+                                alt="Justice Symbol"
+								src="images/justice.jpg"
                                 className="home-image1"
                             />
                             <div data-role="CloseMobileMenu" className="home-close-menu">
@@ -66,6 +66,9 @@ const Home = (props) => {
                             </div>
                         </div>
                         <div className="home-links-container1">
+							<HashLink className="home-link10 Anchor" to="/#top">
+                                Home
+                            </HashLink>
                             <a href="#resources" className="home-link04 Anchor">
                                 Resources
                             </a>
@@ -78,11 +81,8 @@ const Home = (props) => {
                             <a href="#ourstory" className="home-link07 Anchor">
                                 Our story
                             </a>
-                            <HashLink className="home-link10 Anchor" to="/#top">
-                                Home
-                            </HashLink>
-                            <Link className="home-link11 Anchor" to="/page2">
-                                Page 2
+                            <Link className="home-link11 Anchor" to="/facts">
+                                Facts
                             </Link>
                         </div>
                     </div>
@@ -103,14 +103,13 @@ const Home = (props) => {
                             taciti sociosqu ad litora torquent per conubia nostra, per
                             inceptos himenaeos.
                         </span>
-                        <button className="home-cta-btn1 Anchor button">START NOW</button>
                     </div>
                 </div>
             </div>
             <div id="inspiration" className="home-features">
                 <div className="home-heading-container">
                     <h2 className="home-text01 Section-Heading">
-                        Which are the greatest things about it?
+                        Which are some indicators of human trafficking?
                     </h2>
                 </div>
                 <div className="home-cards-container">
@@ -122,11 +121,13 @@ const Home = (props) => {
                             </svg>
                         </div>
                         <div className="home-text-container">
-                            <span className="home-heading01 Card-Heading">Feature One</span>
+                            <span className="home-heading01 Card-Heading">Poor Living and Working Conditions</span>
                             <span className="home-text02 Card-Text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                                nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-                                nisi. Nulla quis sem at nibh elementum imperdiet.
+                                * Excessively long work hours over long periods<br />
+								* No days off, poor or substandard accommodations<br />
+								* No access to medical care<br />
+								* Little or no payment<br />
+								* Unable to negotiate working conditions
                             </span>
                         </div>
                     </div>
@@ -138,11 +139,16 @@ const Home = (props) => {
                             </svg>
                         </div>
                         <div className="home-text-container1">
-                            <span className="home-heading02 Card-Heading">Feature Two</span>
+                            <span className="home-heading02 Card-Heading">Emotional and Physical Control</span>
                             <span className="home-text03 Card-Text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                                nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-                                nisi. Nulla quis sem at nibh elementum imperdiet.
+                                * Believe that they must work against their will<br />
+								* Unable to leave their work environment<br />
+								* Show signs that their movements are being controlled<br />
+								* Feel that they cannot leave, and are in a situation of dependence<br />
+								* Show fear or anxiety<br />
+								* Be subjected to violence or threats of violence against themselves or against their family members and loved ones<br />
+								* Suffer injuries that appear to be the result of an assault<br />
+								* Be distrustful of the authorities
                             </span>
                         </div>
                     </div>
@@ -154,11 +160,13 @@ const Home = (props) => {
                             </svg>
                         </div>
                         <div className="home-text-container2">
-                            <span className="home-heading03 Card-Heading">Feature Three</span>
+                            <span className="home-heading03 Card-Heading">Limited Communication and Social Interaction</span>
                             <span className="home-text04 Card-Text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                                nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-                                nisi. Nulla quis sem at nibh elementum imperdiet.
+                                * Allow others to speak for them when addressed directly<br />
+								* Act as if they were instructed by someone else<br />
+								* Have limited or no social interaction<br />
+								* Have limited contact with their families or with people outside of their immediate environment<br />
+								* Be unable to communicate freely with others
                             </span>
                         </div>
                     </div>
@@ -170,11 +178,24 @@ const Home = (props) => {
                             </svg>
                         </div>
                         <div className="home-text-container3">
-                            <span className="home-heading04 Card-Heading">Feature Four</span>
+                            <span className="home-heading04 Card-Heading">Restricted Freedom of Movement</span>
                             <span className="home-text05 Card-Text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                                nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-                                nisi. Nulla quis sem at nibh elementum imperdiet.
+                                * Afraid of revealing their immigration status<br />
+								* Not in possession of their passports or other travel or identity documents, as those documents are being held by someone else<br />
+								* Have false identity or travel documents<br />
+								* Not know their home or work address
+                            </span>
+                        </div>
+                    </div>
+					<div className="home-features-card5">
+                        <div className="home-icon-container5">
+                        </div>
+                        <div className="home-text-container5">
+                            <span className="home-heading06 Card-Heading"></span>
+							<span className="home-heading06 Card-Heading"></span>
+							<span className="home-heading06 Card-Heading"></span>
+                            <span className="home-text07 Card-Text">
+								(United Nations Office on Drugs and Crime, n.d.)
                             </span>
                         </div>
                     </div>
@@ -186,27 +207,14 @@ const Home = (props) => {
                             </svg>
                         </div>
                         <div className="home-text-container4">
-                            <span className="home-heading05 Card-Heading">Feature Five</span>
+                            <span className="home-heading05 Card-Heading">Sexual Exploitation</span>
                             <span className="home-text06 Card-Text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                                nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-                                nisi. Nulla quis sem at nibh elementum imperdiet.
-                            </span>
-                        </div>
-                    </div>
-                    <div className="home-features-card5">
-                        <div className="home-icon-container5">
-                            <svg viewBox="0 0 1024 1024" className="home-icon19">
-                                <path d="M533.333 234.667c-11.776 0-21.333 9.557-21.333 21.333s9.557 21.333 21.333 21.333c46.208 0 83.797 37.589 83.797 83.797 0 11.776 9.557 21.333 21.333 21.333s21.333-9.557 21.333-21.333c0-69.717-56.747-126.464-126.464-126.464z"></path>
-                                <path d="M533.333 42.667c-176.469 0-320 143.531-320 320 0 63.403 18.773 124.672 54.357 177.707 0.981 2.005 2.091 3.925 3.413 5.76 77.867 111.189 91.563 146.347 91.563 179.2v128c0 23.552 19.115 42.667 42.667 42.667h85.333c0 11.093 4.693 22.187 12.373 30.293 8.107 7.68 19.2 12.373 30.293 12.373 11.093 0 22.187-4.693 30.293-12.373 7.68-8.107 12.373-19.2 12.373-30.293h85.333c23.552 0 42.667-19.115 42.667-42.667v-128c0-33.365 13.611-68.693 90.965-179.157 38.187-54.4 58.368-117.845 58.368-183.509 0-176.469-143.531-320-320-320zM618.667 810.667h-170.667v-42.667h170.667v42.667zM725.12 497.195c-62.549 89.301-91.435 140.331-101.76 185.472h-47.36v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-47.488c-10.24-43.947-38.315-93.867-98.389-180.053-0.939-1.877-2.048-3.712-3.285-5.504-28.032-39.851-42.837-86.357-42.837-134.443 0-129.408 105.259-234.667 234.667-234.667s234.667 105.259 234.667 234.667c0 48.043-14.805 94.549-42.88 134.528z"></path>
-                            </svg>
-                        </div>
-                        <div className="home-text-container5">
-                            <span className="home-heading06 Card-Heading">Feature Six</span>
-                            <span className="home-text07 Card-Text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                                nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-                                nisi. Nulla quis sem at nibh elementum imperdiet.
+                                * Move between brothels or work in various locations<br />
+								* Escorted to and from work and activities<br />
+								* Have tattoos or marks indicating “ownership” by their exploiters<br />
+								* Sleep where they work or travel in a group, sometimes with other women who do not speak the same language<br />
+								* Have no cash of their own and unable to show any identity documents<br />
+								* Have very few items of clothing, mostly the kind typically worn for doing sex work
                             </span>
                         </div>
                     </div>
