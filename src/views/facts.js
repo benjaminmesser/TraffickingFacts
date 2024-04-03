@@ -118,11 +118,9 @@ const facts = (props) => {
                 <div onMouseMove={handleMouseMove} class="card">
                     <div class="card-content">
                         <div class="card-image">
-                            <i class="fa-duotone fa-apartment"></i>
                         </div>
                         <div class="card-info-wrapper">
                             <div class="card-info">
-                                <i class="fa-duotone fa-apartment"></i>
                                 <div class="card-info-title">
                                     <h1>96%</h1>
                                     <h2>of trafficking victims in Canada are women</h2>
@@ -134,11 +132,9 @@ const facts = (props) => {
                 <div onMouseMove={handleMouseMove} class="card">
                     <div class="card-content">
                         <div class="card-image">
-                            <i class="fa-duotone fa-unicorn"></i>
                         </div>
                         <div class="card-info-wrapper">
                             <div class="card-info">
-                                <i class="fa-duotone fa-unicorn"></i>
                                 <div class="card-info-title">
                                     <h1>71%</h1>
                                     <h2>of trafficking victims in Canada are under 25</h2>
@@ -150,11 +146,9 @@ const facts = (props) => {
                 <div onMouseMove={handleMouseMove} class="card">
                     <div class="card-content">
                         <div class="card-image">
-                            <i class="fa-duotone fa-blender-phone"></i>
                         </div>
                         <div class="card-info-wrapper">
                             <div class="card-info">
-                                <i class="fa-duotone fa-blender-phone"></i>
                                 <div class="card-info-title">
                                     <h1>25%</h1>
                                     <h2>of trafficking victims in Canada are under 18</h2>
@@ -166,11 +160,9 @@ const facts = (props) => {
                 <div onMouseMove={handleMouseMove} class="card">
                     <div class="card-content">
                         <div class="card-image">
-                            <i class="fa-duotone fa-person-to-portal"></i>
                         </div>
                         <div class="card-info-wrapper">
                             <div class="card-info">
-                                <i class="fa-duotone fa-person-to-portal"></i>
                                 <div class="card-info-title">
                                     <h1>92%</h1>
                                     <h2>of trafficking victims in Canada know they are trafficked</h2>
