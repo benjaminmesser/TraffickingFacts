@@ -775,7 +775,7 @@ body {
   padding-bottom: var(--dl-space-space-fiveunits);
 }
 .home-heading-container3 {
-  width: 45%;
+  width: 100%;
   display: flex;
   align-items: center;
   padding-left: var(--dl-space-space-tripleunit);

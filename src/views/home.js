@@ -365,6 +365,7 @@ const Home = (props) => {
 						Sona remained trapped in that dreadful place for three long years. However, fortunately,
 						rescue and healing were on the horizon for her.
 						<br />
+						(Ally, n.d)
                     </span>
                 </div>
             </div>
