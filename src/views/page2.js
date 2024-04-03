@@ -4,16 +4,39 @@ import { Link } from "react-router-dom";
 
 import { Helmet } from 'react-helmet'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+
 import './page2 - version 2.css'
 
 // import './home.css'
 
+
+
 const page2 = (props) => {
+
+    const handleMouseMove = (e) => {
+        // console.log('Mouse position:', event.clientX, event.clientY);
+        for (const card of document.getElementsByClassName("card")) {
+            const rect = card.getBoundingClientRect(),
+                x = e.clientX - rect.left,
+                y = e.clientY - rect.top;
+
+            card.style.setProperty("--mouse-x", `${x}px`);
+            card.style.setProperty("--mouse-y", `${y}px`);
+        };
+    };
+
+    const script = document.createElement("script");
+
+    script.src = "fontawesome.js";
+    script.async = false;
+
+    document.body.appendChild(script);
+
     return (
         <div className="home-container">
             <Helmet>
-                <title>Trafficking Facts</title>
-                <meta property="og:title" content="Trafficking Facts" />
                 <script src="fontawesome.js"></script>
             </Helmet>
             <div data-role="Header" className="home-navbar-container">
@@ -90,7 +113,7 @@ const page2 = (props) => {
                 </div>
             </div>
             <div id="cards">
-                <div class="card">
+                <div onMouseMove={handleMouseMove} class="card">
                     <div class="card-content">
                         <div class="card-image">
                             <i class="fa-duotone fa-apartment"></i>
@@ -106,7 +129,7 @@ const page2 = (props) => {
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div onMouseMove={handleMouseMove} class="card">
                     <div class="card-content">
                         <div class="card-image">
                             <i class="fa-duotone fa-unicorn"></i>
@@ -122,7 +145,7 @@ const page2 = (props) => {
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div onMouseMove={handleMouseMove} class="card">
                     <div class="card-content">
                         <div class="card-image">
                             <i class="fa-duotone fa-blender-phone"></i>
@@ -138,7 +161,7 @@ const page2 = (props) => {
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div onMouseMove={handleMouseMove} class="card">
                     <div class="card-content">
                         <div class="card-image">
                             <i class="fa-duotone fa-person-to-portal"></i>
@@ -154,7 +177,7 @@ const page2 = (props) => {
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div onMouseMove={handleMouseMove} class="card">
                     <div class="card-content">
                         <div class="card-image">
                             <i class="fa-duotone fa-person-from-portal"></i>
@@ -170,7 +193,7 @@ const page2 = (props) => {
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div onMouseMove={handleMouseMove} class="card">
                     <div class="card-content">
                         <div class="card-image">
                             <i class="fa-duotone fa-otter"></i>
@@ -179,6 +202,7 @@ const page2 = (props) => {
                             <div class="card-info">
                                 <i class="fa-duotone fa-otter"></i>
                                 <div class="card-info-title">
+                                    <FontAwesomeIcon icon={'fa-duotone fa-otter'} />
                                     <h3>Otters</h3>
                                     <h4>Look at me, imma cute lil fella.</h4>
                                 </div>
