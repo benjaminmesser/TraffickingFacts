@@ -27,6 +27,13 @@
   --dl-radius-radius-radius24: 24px;
   --dl-space-space-doubleunit: 16px;
   --dl-space-space-tripleunit: 24px;
+  --bg-color1: rgb(20, 20, 20);
+  --bg-color2: rgb(255, 255, 255);
+  --card-color: rgb(23, 23, 23);
+}
+body {
+    align-items: center;
+    background-color: var(--bg-color2);
 }
 .teleport-show {
   display: flex !important;

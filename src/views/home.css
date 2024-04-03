@@ -1,3 +1,7 @@
+body {
+    align-items: center;
+    background-color: var(--bg-color2);
+}
 .home-container {
   width: 100%;
   height: auto;

@@ -30,12 +30,12 @@ const page2 = (props) => {
     const script = document.createElement("script");
 
     script.src = "fontawesome.js";
-    script.async = false;
+    script.async = true;
 
     document.body.appendChild(script);
 
     return (
-        <div className="home-container">
+        <div className="home-container-page2">
             <Helmet>
                 <script src="fontawesome.js"></script>
             </Helmet>
