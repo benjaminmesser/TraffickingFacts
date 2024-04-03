@@ -121,7 +121,7 @@ img {
 
 /* -- ↓ ↓ ↓ extra card content styles ↓ ↓ ↓ -- */
 
-h1 {
+h1,h3 {
 	color: rgb(220, 220, 220);
 }
 
