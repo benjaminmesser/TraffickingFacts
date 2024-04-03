@@ -182,6 +182,21 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+.home-hero2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-tenunits);
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tenunits);
+  background-size: cover;
+  justify-content: center;
+  background-image: url("images/trafficking_definition.png");
+  background-size: 1000px 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .home-content-container {
   width: 100%;
   display: flex;

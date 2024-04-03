@@ -23,7 +23,7 @@ img {
 }
 
 #cards {
-	padding-top: 10%;
+	padding-top: 5%;
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
@@ -40,10 +40,10 @@ img {
     border-radius: 10px;
     cursor: pointer;
     display: flex;
-    height: 260px;
+    height: 400px;
     flex-direction: column;
     position: relative;
-    width: 300px;
+    width: 450px;
     transform-style: preserve-3d;
     transition: 0.5s;
     transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
@@ -114,15 +114,20 @@ img {
     flex-direction: column;
     flex-grow: 1;
     inset: 1px;
-    padding: 10px 0px 60px 0px;
+    padding: 10px 0px 100px 0px;
     position: absolute;
     z-index: 2;
 }
 
 /* -- ↓ ↓ ↓ extra card content styles ↓ ↓ ↓ -- */
 
-h1,h3 {
+h1 {
 	color: rgb(220, 220, 220);
+}
+
+h5 {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 14pt;
 }
 
 /*
@@ -180,9 +185,9 @@ i {
 	z-index: 5
 }
 
-.card-info-title>h4 {
+.card-info-title>h2 {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 0.85em;
+    font-size: 28px;
     margin-top: 8px;
 	z-index: 5
 }

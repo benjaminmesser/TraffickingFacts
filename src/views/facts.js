@@ -124,8 +124,8 @@ const facts = (props) => {
                             <div class="card-info">
                                 <i class="fa-duotone fa-apartment"></i>
                                 <div class="card-info-title">
-                                    <h3>Convictions</h3>
-                                    <h4>In the last 10 years, annual charges of human trafficking in Canada have increased by a factor of more than 10</h4>
+                                    <h1>96%</h1>
+                                    <h2>of trafficking victims in Canada are women</h2>
                                 </div>
                             </div>
                         </div>
@@ -140,8 +140,8 @@ const facts = (props) => {
                             <div class="card-info">
                                 <i class="fa-duotone fa-unicorn"></i>
                                 <div class="card-info-title">
-                                    <h3>Unicorns</h3>
-                                    <h4>A single corn. Er, I mean horn.</h4>
+                                    <h1>71%</h1>
+                                    <h2>of trafficking victims in Canada are under 25</h2>
                                 </div>
                             </div>
                         </div>
@@ -156,8 +156,8 @@ const facts = (props) => {
                             <div class="card-info">
                                 <i class="fa-duotone fa-blender-phone"></i>
                                 <div class="card-info-title">
-                                    <h3>Blender Phones</h3>
-                                    <h4>These absolutely deserve to exist.</h4>
+                                    <h1>25%</h1>
+                                    <h2>of trafficking victims in Canada are under 18</h2>
                                 </div>
                             </div>
                         </div>
@@ -172,58 +172,16 @@ const facts = (props) => {
                             <div class="card-info">
                                 <i class="fa-duotone fa-person-to-portal"></i>
                                 <div class="card-info-title">
-                                    <h3>Adios</h3>
-                                    <h4>See you...</h4>
+                                    <h1>92%</h1>
+                                    <h2>of trafficking victims in Canada know they are trafficked</h2>
+									<h5>(Conroy & Sutton, 2022)</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div onMouseMove={handleMouseMove} class="card">
-                    <div class="card-content">
-                        <div class="card-image">
-                            <i class="fa-duotone fa-person-from-portal"></i>
-                        </div>
-                        <div class="card-info-wrapper">
-                            <div class="card-info">
-                                <i class="fa-duotone fa-person-from-portal"></i>
-                                <div class="card-info-title">
-                                    <h3>I mean hello</h3>
-                                    <h4>...over here.</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div onMouseMove={handleMouseMove} class="card">
-                    <div class="card-content">
-                        <div class="card-image">
-                            <i class="fa-duotone fa-otter"></i>
-                        </div>
-                        <div class="card-info-wrapper">
-                            <div class="card-info">
-                                <i class="fa-duotone fa-otter"></i>
-								<FontAwesomeIcon icon={'fa-duotone fa-otter'} />
-								
-                                <div class="card-info-title">
-                                    <FontAwesomeIcon icon={'fa-duotone fa-otter'} />
-                                    <h3>Otters</h3>
-                                    <h4>Look at me, imma cute lil fella.</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
-            <a id="source-link" class="link" href="https://linear.app/features" target="_blank">
-                <i class="fa-solid fa-link"></i>
-                <span class="roboto-mono">Source</span>
-            </a>
-
-            <a id="youtube-link" class="link" href="https://youtu.be/htGfnF1zN4g" target="_blank">
-                <i class="fa-brands fa-youtube"></i>
-                <span>5 min Tutorial</span>
-            </a>
         </div>
     )
 }
