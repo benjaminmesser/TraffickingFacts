@@ -339,10 +339,32 @@ const Home = (props) => {
             <div className="home-section-separator1"></div>
             <div id="ourstory" className="home-our-story">
                 <div className="home-heading-container3">
-                    <h1 className="home-text18 Section-Heading">Our story</h1>
+                    <h1 className="home-text18 Section-Heading">A story of a survivor</h1>
                     <span className="home-text19 Section-Text">
-                        Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-                        odio. Praesent libero.
+                        At the age of 6, Sona lost her mother, leaving her and her brother in the care of their abusive and alcoholic father.
+						Sona had to work from a young age to provide for her family, missing out on the opportunity to attend school.
+						Her dream was to move to a big city one day to learn and earn a better living. One day, while walking home,
+						Sona was approached by two older boys, one of whom claimed to be her childhood friend.
+						They convinced her to join them for a meal at his mother's house. Feeling hungry, Sona agreed. During the meal,
+						Amir's mother made Sona feel at home by expressing how much she missed her own family.
+						This sense of belonging was something Sona hadn't felt since her mother's passing. After the meal,
+						Amir's mother invited Sona to go on an adventure to Kolkata. Despite her initial hesitation,
+						Sona found the idea exciting as she had never left her village before and was curious about the city.
+						They crossed the border into India, where Amir's mother suggested spending the night at her sister's house.
+						However, upon arrival, Sona was informed that she would stay there alone.
+						The woman promised to help Sona find a job in Kolkata and assured her that her father would be proud of her for seeking opportunities.
+						Overwhelmed by the sudden turn of events, Sona trusted the woman and eventually found herself in Kolkata,
+						meeting her new boss who praised her appearance and encouraged her to follow his instructions.
+						Sona eventually reached Kolkata and met her new employer. He praised her appearance and assured her that she 
+						would succeed if she followed his instructions. At just 13 years old, Sona was unaware of her whereabouts or the nature of her work.
+						However, she soon discovered that she had been brought to a brothel. When her first "client" arrived, Sona was filled with terror
+						and refused to comply. The brothel owner forcefully dragged Sona outside and threatened her life, leaving her with no choice.
+						"They threatened me, saying, 'If you refuse to do this work, we will kill you. We will bury you and you will never return to Nepal.'
+						Every day, there were new customers, sometimes numbering 30, 40, or even 50 people. I felt as though I had no life,
+						questioning why my existence had turned out this way. Gradually, I abandoned all my dreams and accepted this as my fate."
+						Sona remained trapped in that dreadful place for three long years. However, fortunately,
+						rescue and healing were on the horizon for her.
+						<br />
                     </span>
                 </div>
             </div>
