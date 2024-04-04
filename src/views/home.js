@@ -6,6 +6,10 @@ import { HashLink } from 'react-router-hash-link';
 
 import { Helmet } from 'react-helmet'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBook } from '@fortawesome/fontawesome-free-solid'
+import { faPhone } from '@fortawesome/fontawesome-free-solid'
+
 import './home.css'
 
 const Home = (props) => {
@@ -307,35 +311,35 @@ const Home = (props) => {
                 <div className="home-cards-container2">
                     <div className="home-team-card">
                         <div className="home-avatar-container">
-                            <i class="fa-solid fa-book"></i>
+							<FontAwesomeIcon icon={faPhone} />
                         </div>
                         <span className="home-name Card-Heading">RESET Society of Calgary</span>
                         <span className="home-position Card-Text">403-237-8477  reception@resetcalgary.ca</span>
                     </div>
                     <div className="home-team-card1">
                         <div className="home-avatar-container">
-                            <i class="fa-solid fa-book"></i>
+                            <FontAwesomeIcon icon={faPhone} />
                         </div>
                         <span className="home-name1 Card-Heading">The Canadian Centre to End Human Trafficking</span>
                         <span className="home-position1 Card-Text">1-833-900-1010</span>
                     </div>
                     <div className="home-team-card2">
                         <div className="home-avatar-container">
-                            <i class="fa-solid fa-book"></i>
+                            <FontAwesomeIcon icon={faPhone} />
                         </div>
                         <span className="home-name2 Card-Heading">Immediate danger</span>
                         <span className="home-position2 Card-Text">911</span>
                     </div>
                     <div className="home-team-card3">
                         <div className="home-avatar-container">
-                            <i class="fa-solid fa-book"></i>
+                            <FontAwesomeIcon icon={faPhone} />
                         </div>
                         <span className="home-name3 Card-Heading">Alberta Community and Social Services Helpline</span>
                         <span className="home-position3 Card-Text">211</span>
                     </div>
                     <div className="home-team-card4">
                         <div className="home-avatar-container">
-                            <i class="fa-solid fa-book"></i>
+                            <FontAwesomeIcon icon={faPhone} />
                         </div>
                         <span className="home-name4 Card-Heading">ACT Alberta (The Action Coalition on Human Trafficking)</span>
                         <span className="home-position4 Card-Text">780-474-1104</span>
