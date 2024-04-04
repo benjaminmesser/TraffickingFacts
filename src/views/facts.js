@@ -46,7 +46,7 @@ const facts = (props) => {
                     <div className="home-left-side">
                         <img
                             alt="Justice Symbol"
-                            src="images/justice.jpg"
+                            src={require("./justice.jpg")}
                             className="home-image"
                         />
                         <div data-role="BurgerMenu" className="home-burger-menu">
@@ -67,6 +67,9 @@ const facts = (props) => {
 							<HashLink className="home-link02 Anchor" to="/#protective_factors">
                                 Protective Factors
                             </HashLink>
+							<HashLink className="home-link02 Anchor" to="/#resources">
+                                Resources
+                            </HashLink>
 							<HashLink className="home-link03 Anchor" to="/#victim_story">
                                 Victim Story
                             </HashLink>
@@ -82,7 +85,7 @@ const facts = (props) => {
                         <div className="home-container1">
                             <img
                                 alt="Justice Symbol"
-								src="images/justice.jpg"
+								src={require("./justice.jpg")}
                                 className="home-image1"
                             />
                             <div data-role="CloseMobileMenu" className="home-close-menu">
@@ -103,6 +106,9 @@ const facts = (props) => {
                             </HashLink>
 							<HashLink className="home-link06 Anchor" to="/#protective_factors">
                                 Protective Factors
+                            </HashLink>
+							<HashLink className="home-link06 Anchor" to="/#resources">
+                                Resources
                             </HashLink>
 							<HashLink className="home-link07 Anchor" to="/#victim_story">
                                 Victim Story

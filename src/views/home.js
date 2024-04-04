@@ -20,7 +20,7 @@ const Home = (props) => {
                     <div className="home-left-side">
                         <img
                             alt="Justice Symbol"
-                            src="images/justice.jpg"
+                            src={require("./justice.jpg")}
                             className="home-image"
                         />
                         <div data-role="BurgerMenu" className="home-burger-menu">
@@ -41,6 +41,9 @@ const Home = (props) => {
                             <a href="#protective_factors" className="home-link02 Anchor">
                                 Protective Factors
                             </a>
+							<a href="#resources" className="home-link02 Anchor">
+                                Resources
+                            </a>
                             <a href="#victim_story" className="home-link03 Anchor">
                                 Victim Story
                             </a>
@@ -56,7 +59,7 @@ const Home = (props) => {
                         <div className="home-container1">
                             <img
                                 alt="Justice Symbol"
-								src="images/justice.jpg"
+								src={require("./justice.jpg")}
                                 className="home-image1"
                             />
                             <div data-role="CloseMobileMenu" className="home-close-menu">
@@ -77,6 +80,9 @@ const Home = (props) => {
                             </a>
                             <a href="#protective_factors" className="home-link06 Anchor">
                                 Protective Factors
+                            </a>
+							<a href="#resources" className="home-link06 Anchor">
+                                Resources
                             </a>
                             <a href="#victim_story" className="home-link07 Anchor">
                                 Victim Story
@@ -292,7 +298,7 @@ const Home = (props) => {
                 </div>
             </div>
             <div className="home-section-separator"></div>
-            <div className="home-team">
+            <div id="resources" className="home-team">
                 <div className="home-heading-container2">
                     <h1 className="home-text16 Section-Heading">Resources</h1>
                     <span className="home-text17 Section-Text">
