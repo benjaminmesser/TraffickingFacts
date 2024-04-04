@@ -94,7 +94,7 @@ const Home = (props) => {
                     </div>
                 </div>
             </div>
-            <div id="those_vulnerable" className="home-hero">
+            <div id="those_vulnerable" className="home-hero" style={{backgroundImage: 'url(' + require('./bound_hands.jpg') + ')'}}>
                 <div className="home-content-container">
                     <div className="home-hero-text">
                         <h1 className="home-heading Section-Heading">
@@ -109,7 +109,7 @@ const Home = (props) => {
                     </div>
                 </div>
             </div>
-			<div id="those_vulnerable" className="home-hero2">
+			<div id="those_vulnerable" className="home-hero2" style={{backgroundImage: 'url(' + require('./trafficking_definition.png') + ')'}}>
                 <div className="home-content-container2">
                     <div className="home-hero-text2">
                         <h1 className="home-heading2 Section-Heading">
