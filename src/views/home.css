@@ -178,7 +178,7 @@ body {
   padding-bottom: var(--dl-space-space-tenunits);
   background-size: cover;
   justify-content: center;
-  background-image: url("./bound_hands.jpg");
+  /*background-image: url("./bound_hands.jpg");*/
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -192,7 +192,7 @@ body {
   padding-bottom: var(--dl-space-space-tenunits);
   background-size: cover;
   justify-content: center;
-  background-image: url("./trafficking_definition.png");
+  /*background-image: url("./trafficking_definition.png");*/
   background-size: 1000px 500px;
   background-repeat: no-repeat;
   background-position: center;
